@@ -18,16 +18,25 @@
             </Label.RenderTransform>
         </Label>
         <TextBox x:Name="txtVoto1" HorizontalAlignment="Left" Margin="69,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblVoto1" Content="inserire secondo voto" HorizontalAlignment="Left" Margin="58,118,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label  Content="inserire secondo voto" HorizontalAlignment="Left" Margin="58,118,0,0" VerticalAlignment="Top" Width="142"/>
         <TextBox x:Name="txtVoto2" HorizontalAlignment="Left" Margin="69,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblTerzoVoto" Content="inserire terzo voto" HorizontalAlignment="Left" Margin="64,178,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label  Content="inserire terzo voto" HorizontalAlignment="Left" Margin="64,178,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtVoto3" HorizontalAlignment="Left" Margin="69,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtQuartoVoto" HorizontalAlignment="Left" Margin="69,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblQuartoVoto" Content="Inserire quarto voto" HorizontalAlignment="Left" Margin="69,251,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnMostra" Content="Calcola" HorizontalAlignment="Left" Margin="338,158,0,0" VerticalAlignment="Top" Click="btnMostra_Click"/>
-        <Label x:Name="lblNomeMedia" Content="Media" HorizontalAlignment="Left" Margin="328,66,0,0" VerticalAlignment="Top" Width="137"/>
-        <TextBox x:Name="txt_RisultatoMedia" HorizontalAlignment="Left" Margin="328,97,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Label x:Name="lblPromossoBocciato" Content="" HorizontalAlignment="Left" Margin="314,208,0,0" VerticalAlignment="Top" Width="198" FontSize="24" FontFamily="Bauhaus 93" FontWeight="Bold" Foreground="Blue"/>
+        <TextBox x:Name="txtVoto4" HorizontalAlignment="Left" Margin="69,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label  Content="Inserire quarto voto" HorizontalAlignment="Left" Margin="69,251,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnMostra" Content="Calcola" HorizontalAlignment="Left" Margin="505,282,0,0" VerticalAlignment="Top" Click="btnMostra_Click"/>
+        <Label  Content="Media" HorizontalAlignment="Left" Margin="511,60,0,0" VerticalAlignment="Top" Width="137"/>
+        <TextBox x:Name="txt_RisultatoMedia" HorizontalAlignment="Left" Margin="511,97,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label x:Name="lblPromossoBocciato" Content="" HorizontalAlignment="Left" Margin="505,325,0,0" VerticalAlignment="Top" Width="198" FontSize="24" FontFamily="Bauhaus 93" FontWeight="Bold" Foreground="Blue"/>
+        <Label Content="Max" HorizontalAlignment="Left" Margin="511,140,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="lbl_max" Content="" HorizontalAlignment="Left" Margin="511,173,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Min" HorizontalAlignment="Left" Margin="511,0,0,0" VerticalAlignment="Center"/>
+        <Label x:Name="lbl_min" Content="" HorizontalAlignment="Left" Margin="511,246,0,0" VerticalAlignment="Top" Width="127"/>
+        <Label Content="incidenza %" HorizontalAlignment="Left" Margin="280,47,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label x:Name="lbl_incidenzaVoto1" Content="" HorizontalAlignment="Left" Margin="280,84,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbl_incidenzaVoto2" Content="" HorizontalAlignment="Left" Margin="280,145,0,0" VerticalAlignment="Top" Width="112"/>
+        <Label x:Name="lbl_incidenzaVoto3" Content="" HorizontalAlignment="Left" Margin="280,212,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="lbl_incidenzaVoto4" Content="" HorizontalAlignment="Left" Margin="280,278,0,0" VerticalAlignment="Top" Width="95"/>
 
     </Grid>
 </Window>
